@@ -1,4 +1,4 @@
-# amis-uchart-custom-widget
+# vue3-amis-custom-widget
 > amis 自定义组件模板（vue3.0 技术栈）
 
 ### 目录说明

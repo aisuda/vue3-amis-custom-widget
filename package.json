@@ -1,5 +1,5 @@
 {
-  "name": "amis-uchart-custom-widget",
+  "name": "vue3-amis-custom-widget",
   "version": "1.0.0",
   "description": "amis自定义组件模板（vue3.0技术栈）",
   "keywords": [
@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.com:aisuda/amis-uchart-custom-widget.git"
+    "url": "https://git@github.com:aisuda/vue3-amis-custom-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/aisuda/amis-uchart-custom-widget/issues"
+    "url": "https://github.com/aisuda/vue3-amis-custom-widget/issues"
   },
   "dependencies": {
     "vue3-amis-widget": "^3.0.2",

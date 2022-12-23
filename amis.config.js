@@ -30,7 +30,7 @@ module.exports = {
     // template: resolve('./index.html'), // 使用自己的html模板
     cssLoaderUrl: true,
     moduleRules: [], // 用于配置自定义loaders
-    plugins: [], // 用于配置自定义plugins // uni()
+    plugins: [], // 用于配置自定义plugins
   },
   preview: {
     entry: { // 本地预览自定义组件内容
