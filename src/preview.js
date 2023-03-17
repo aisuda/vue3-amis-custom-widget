@@ -8,5 +8,5 @@ ReactDOM.render(
   <>
     <UniArea />
   </>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );

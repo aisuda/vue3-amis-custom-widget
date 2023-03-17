@@ -19,21 +19,21 @@ export class areaChartPlugin {
     series: [
       {
         name: '成交量A',
-        data: [35, 8, 25, 37, 4, 20],
+        data: [35, 8, 25, 37, 4, 20]
       },
       {
         name: '成交量B',
-        data: [70, 40, 65, 100, 44, 68],
+        data: [70, 40, 65, 100, 44, 68]
       },
       {
         name: '成交量C',
-        data: [100, 80, 95, 150, 112, 132],
-      },
-    ],
+        data: [100, 80, 95, 150, 112, 132]
+      }
+    ]
   };
   previewSchema = {
     type: 'uni-area-chart',
-    label: '折线区域图',
+    label: '折线区域图'
   };
 
   panelTitle = '配置';
@@ -54,18 +54,18 @@ export class areaChartPlugin {
       value: [
         {
           name: '成交量A',
-          data: [35, 8, 25, 37, 4, 20],
+          data: [35, 8, 25, 37, 4, 20]
         },
         {
           name: '成交量B',
-          data: [70, 40, 65, 100, 44, 68],
+          data: [70, 40, 65, 100, 44, 68]
         },
         {
           name: '成交量C',
-          data: [100, 80, 95, 150, 112, 132],
-        },
+          data: [100, 80, 95, 150, 112, 132]
+        }
       ]
-    },
+    }
   ];
 }
 

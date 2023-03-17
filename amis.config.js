@@ -19,8 +19,8 @@ module.exports = {
       // webpack的resolve配置
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue', '.esm.js', '.umd.js', '.min.js', '.json'], // 用于配置webpack在尝试过程中用到的后缀列表
       alias: {
-        '@': resolve('src'),
-      },
+        '@': resolve('src')
+      }
     },
     // createDeclaration: true, // 打包时是否创建ts声明文件
     ignoreNodeModules: false, // 打包时是否忽略 node_modules
@@ -30,11 +30,12 @@ module.exports = {
     // template: resolve('./index.html'), // 使用自己的html模板
     cssLoaderUrl: true,
     moduleRules: [], // 用于配置自定义loaders
-    plugins: [], // 用于配置自定义plugins
+    plugins: [] // 用于配置自定义plugins
   },
   preview: {
-    entry: { // 本地预览自定义组件内容
-      index: './src/preview.js',
+    entry: {
+      // 本地预览自定义组件内容
+      index: './src/preview.js'
     },
     // 用于开启本地调试模式的相关配置信息
     NODE_ENV: 'development',
@@ -44,14 +45,12 @@ module.exports = {
     hostname: 'localhost',
     cssSourceMap: true,
     closeHotReload: false, // 是否关闭热更新
-    autoOpenBrowser: true,
+    autoOpenBrowser: true
   },
   dev: {
-    entry: { // 本地编辑器中预览自定义组件
-      index: [
-        './src/uni-area-chart/renderer.ts',
-        './src/uni-area-chart/plugin.ts'
-      ],
+    entry: {
+      // 本地编辑器中预览自定义组件
+      index: ['./src/uni-area-chart/renderer.ts', './src/uni-area-chart/plugin.ts']
     },
     // 用于开启本地调试模式的相关配置信息
     NODE_ENV: 'development',
@@ -69,14 +68,12 @@ module.exports = {
     cssSourceMap: true,
     closeHotReload: false, // 是否关闭热更新
     // closeEditorClient: false, // 是否关闭自动注入editor
-    autoOpenBrowser: true,
+    autoOpenBrowser: true
   },
   linkDebug: {
-    entry: { // 外链调试（爱速搭中预览本地自定义组件）
-      index: [
-        './src/uni-area-chart/renderer.ts',
-        './src/uni-area-chart/plugin.ts'
-      ],
+    entry: {
+      // 外链调试（爱速搭中预览本地自定义组件）
+      index: ['./src/uni-area-chart/renderer.ts', './src/uni-area-chart/plugin.ts']
     },
     NODE_ENV: 'production',
     port: 80,
@@ -86,7 +83,7 @@ module.exports = {
     assetsSubDirectory: '',
     hostname: 'localhost',
     cssSourceMap: true,
-    closeHotReload: true, // 是否关闭热更新
+    closeHotReload: true // 是否关闭热更新
   },
   // build2lib 用于打包生成环境的js模块
   build2lib: {
@@ -104,6 +101,6 @@ module.exports = {
     productionSourceMap: false,
     productionGzip: false,
     productionGzipExtensions: ['js', 'css', 'json'],
-    bundleAnalyzerReport: false,
+    bundleAnalyzerReport: false
   }
 };

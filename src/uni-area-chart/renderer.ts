@@ -6,5 +6,5 @@ import uniAreaChart from './uni-area-chart';
 
 registerRendererByType(uniAreaChart, {
   type: 'uni-area-chart',
-  framework: 'vue3',
+  framework: 'vue3'
 });
