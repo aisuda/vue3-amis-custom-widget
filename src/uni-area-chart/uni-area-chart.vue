@@ -8,6 +8,11 @@
       @touchend="tap"
       ref="uchartRef"
     ></canvas>
+    <InfoCard
+      title="amis 是一个低代码前端框架，它使用 JSON 配置来生成页面，可以减少页面开发工作量，极大提升效率。@wibetter"
+      comment_count="202300"
+    >
+    </InfoCard>
   </div>
 </template>
 <script setup>
@@ -16,6 +21,7 @@
  */
 import { ref, onMounted, onUpdated, computed, getCurrentInstance } from 'vue';
 import uCharts from '@qiun/ucharts';
+import InfoCard from './info-card.vue';
 
 // 图表详细配置说明请见：https://www.ucharts.cn/v2/#/guide/index
 var uChartsInstance = {};
